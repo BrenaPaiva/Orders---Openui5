@@ -1,0 +1,21 @@
+<mvc:View
+	controllerName="sap.ui.demo.basicTemplate.controller.Home"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="{i18n>title}">
+		<content>
+			<Table id="idOrdersTable">
+				<headerToolbar>
+					<OverflowToolbar>
+						<Title text="Orders"/>
+					<SearchField width="20%"/>
+					<Button tooltip="Sort" icon="sap-icon://sort"/>
+					</OverflowToolbar>
+				</headerToolbar>
+			</Table>
+		</content>
+	</Page>
+</mvc:View>
