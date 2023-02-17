@@ -31,12 +31,12 @@
 					</Column>
 				</columns>
 				<items>
-					<!-- PAREI EM PARTE 5 2:29 -->
+					<!-- PAREI EM PARTE 6 10:00 -->
 					<ColumnListItem type="Navigation">
 						<cells>
 						  <ObjectIdentifier title="{SalesOrderID}"/>
 						  <Text text="{CustomerName}"/>
-						  <ObjectStatus text="{LifecycleStatusDescription}" icon="sap-icon://status-completed" state="{LifecycleStatus}"/>
+						  <ObjectStatus text="{LifecycleStatusDescription}" icon="sap-icon://status-completed" state="{path: 'LyfecycleStatus', formatter: '.formatter.statusIndicator'}"/>
 						  <ObjectNumber number="{GrossAmount}" unit="{CurrencyCode}"/>
 						</cells>
 					 </ColumnListItem>
