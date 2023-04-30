@@ -14,7 +14,7 @@
 				click="openBarcodeScannerDialog"
 				text="Scan"
 				icon="camera"
-				tooltip="Start Camera"
+				tooltip="Iniciar Camera"
 				class="sapUiSmallMarginTop"/>
 			<Title
 				id="scanResultLabel"
